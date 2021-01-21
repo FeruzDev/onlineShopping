@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"); }
+.font-family-bold {
+  font-family: "OpenSans-Bold", "OpenSans-Regular", sans-serif !important; }
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif !important; }
+
+.font-family-semi-bold {
+  font-family: "OpenSans-SemiBold", "OpenSans-Regular", sans-serif !important; }
+
+body navbar {
+  border-bottom: 2px solid #eee;
+  background-color: white; }
+  body navbar .container .row .col-md-2 {
+    display: flex;
+    align-items: center; }
+    body navbar .container .row .col-md-2 .navbar-brand img {
+      width: 150px;
+      height: 30px; }
+  body navbar .container .row .col-md-10 .navbar .navbar-nav .nav-item {
+    border-top: 3px solid white;
+    padding: 10px 18px;
+    padding-top: 15px;
+    transition: 0.5s; }
+    body navbar .container .row .col-md-10 .navbar .navbar-nav .nav-item .nav-link {
+      transition: 0.5s;
+      color: #BABABA;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 0;
+      background: 0 0;
+      text-transform: capitalize;
+      letter-spacing: 1px; }
+      body navbar .container .row .col-md-10 .navbar .navbar-nav .nav-item .nav-link img {
+        display: block;
+        width: 44px;
+        height: 30px; }
+  body navbar .container .row .col-md-10 .navbar .navbar-nav .nav-item:hover {
+    border-top: 3px solid #FF7519; }
+    body navbar .container .row .col-md-10 .navbar .navbar-nav .nav-item:hover .nav-link {
+      color: #FF7519; }
+  body navbar .container .row .col-md-10 .your-cart {
+    height: 100%; }
+body header {
+  margin-top: 140px; }
+  body header .container .main-carousel .carousel {
+    background-image: url("../img/Slide1-bg.jpg");
+    height: 460px; }
+    body header .container .main-carousel .carousel .carousel-inner {
+      height: 100%; }
+      body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) {
+        height: 100%; }
+        body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .car-cont h5 {
+            color: white;
+            font-size: 30px;
+            text-transform: uppercase; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .car-cont h2 {
+            color: white;
+            font-size: 70px;
+            text-transform: uppercase;
+            letter-spacing: 5px; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .car-cont p {
+            color: white;
+            margin: 0 0; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .car-cont button {
+            background-color: #FF7519;
+            text-transform: uppercase;
+            color: white;
+            width: 180px;
+            height: 50px;
+            margin-top: 20px; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .sale-car-img {
+            position: relative; }
+            body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .sale-car-img img {
+              width: 450px;
+              height: 330px; }
+            body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .sale-car-img .sale-img {
+              position: absolute;
+              left: -45px;
+              bottom: 0; }
+              body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(1) .carousel-con .sale-car-img .sale-img img {
+                width: 100px;
+                height: 100px; }
+      body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) {
+        height: 100%; }
+        body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: row-reverse; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .car-cont h5 {
+            color: white;
+            font-size: 30px;
+            text-transform: uppercase; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .car-cont h2 {
+            color: white;
+            font-size: 70px;
+            text-transform: uppercase;
+            letter-spacing: 5px; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .car-cont p {
+            color: white;
+            margin: 0 0; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .car-cont button {
+            background-color: #FF7519;
+            text-transform: uppercase;
+            color: white;
+            width: 180px;
+            height: 50px;
+            margin-top: 20px; }
+          body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .sale-car-img {
+            position: relative; }
+            body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .sale-car-img img {
+              width: 330px;
+              height: 370px; }
+            body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .sale-car-img .sale-img {
+              position: absolute;
+              right: -50px;
+              top: 150px; }
+              body header .container .main-carousel .carousel .carousel-inner .carousel-item:nth-child(2) .carousel-con .sale-car-img .sale-img img {
+                width: 100px;
+                height: 100px; }
+    body header .container .main-carousel .carousel .carousel-control-prev {
+      left: -50px; }
+    body header .container .main-carousel .carousel .carousel-control-next {
+      right: -50px; }
+body section#first {
+  margin-top: 50px; }
+  body section#first .container .row .col-md-4 .card {
+    border: 3px solid transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: 0.7s; }
+    body section#first .container .row .col-md-4 .card .first-card-con {
+      padding: 45px  40px; }
+      body section#first .container .row .col-md-4 .card .first-card-con h3 {
+        text-transform: uppercase;
+        font-size: 23px; }
+      body section#first .container .row .col-md-4 .card .first-card-con h4 {
+        text-transform: capitalize; }
+      body section#first .container .row .col-md-4 .card .first-card-con p {
+        font-size: 15px; }
+      body section#first .container .row .col-md-4 .card .first-card-con button {
+        text-transform: uppercase;
+        width: 135px;
+        height: 45px;
+        background-color: #FF7519;
+        color: white;
+        font-size: 14px; }
+  body section#first .container .row .col-md-4 .card:hover {
+    border: 3px solid #FF7519; }
+    body section#first .container .row .col-md-4 .card:hover h3 {
+      color: #FF7519; }
+    body section#first .container .row .col-md-4 .card:hover h4 {
+      color: #FF7519; }
+    body section#first .container .row .col-md-4 .card:hover p {
+      color: #FF7519; }
+body section#second-carousel-con .container {
+  margin-top: 50px; }
+  body section#second-carousel-con .container .col-md-12 .card {
+    margin-bottom: 10px; }
+    body section#second-carousel-con .container .col-md-12 .card h3 {
+      text-transform: uppercase;
+      border-radius: 0; }
+  body section#second-carousel-con .container .col-md-12 .item .card {
+    margin: 0 0;
+    overflow: hidden; }
+    body section#second-carousel-con .container .col-md-12 .item .card .car-con-img {
+      height: 260px;
+      display: flex;
+      align-items: center; }
+      body section#second-carousel-con .container .col-md-12 .item .card .car-con-img img {
+        width: 170px;
+        margin: 0 auto;
+        transition: 0.5s; }
+    body section#second-carousel-con .container .col-md-12 .item .card .car-con {
+      text-align: center; }
+      body section#second-carousel-con .container .col-md-12 .item .card .car-con h4 {
+        text-transform: uppercase; }
+      body section#second-carousel-con .container .col-md-12 .item .card .car-con h5 {
+        text-transform: uppercase; }
+    body section#second-carousel-con .container .col-md-12 .item .card .car-con-btn {
+      background-color: rgba(255, 117, 25, 0.1);
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      padding: 38px 0px;
+      bottom: -115px;
+      transition: 0.5s; }
+      body section#second-carousel-con .container .col-md-12 .item .card .car-con-btn button {
+        background-color: #FF7519;
+        color: white;
+        text-transform: uppercase; }
+  body section#second-carousel-con .container .col-md-12 .item .card:hover .car-con-img img {
+    width: 210px; }
+  body section#second-carousel-con .container .col-md-12 .item .card:hover .car-con-btn {
+    bottom: 0; }
+body section#third-con .container .row .col-md-3 .rec-con .card {
+  padding: 10px 10px; }
+  body section#third-con .container .row .col-md-3 .rec-con .card .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    color: #C4C4C4;
+    font-weight: bold;
+    transition: 0.5s; }
+    body section#third-con .container .row .col-md-3 .rec-con .card .nav-link img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px; }
+  body section#third-con .container .row .col-md-3 .rec-con .card .nav-link:hover {
+    color: #424242; }
+body section#third-con .container .row .col-md-9 .row .col-md-4 .card .car-con-img img {
+  width: 200px; }
+
+/*# sourceMappingURL=main.css.map */
